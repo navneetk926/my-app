@@ -6,7 +6,6 @@ import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SideNavContentComponent } from './components/side-nav-content/side-nav-content.component';
 import { AppPageComponent } from './pages/app-page/app-page.component';
-import { PortfolioPageComponent } from './pages/portfolio-page/portfolio-page.component';
 import { ServicesPageComponent } from './pages/services-page/services-page.component';
 import { CcapiComponent } from './pages/ccapi/ccapi.component';
 
@@ -17,7 +16,6 @@ import { CcapiComponent } from './pages/ccapi/ccapi.component';
     HeaderComponent,
     SideNavContentComponent,
     AppPageComponent,
-    PortfolioPageComponent,
     ServicesPageComponent,
     CcapiComponent
   ],

@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { AppPageComponent } from './pages/app-page/app-page.component';
-import { PortfolioPageComponent } from './pages/portfolio-page/portfolio-page.component';
 import { CcapiComponent } from './pages/ccapi/ccapi.component';
 
 const routes: Routes = [
@@ -14,10 +13,7 @@ const routes: Routes = [
     path: 'apps',
     component: AppPageComponent
   },
-  {
-    path: 'portfolio',
-    component: PortfolioPageComponent
-  },
+  
   {
     path: 'ccapi',
     component: CcapiComponent
